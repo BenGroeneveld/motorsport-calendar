@@ -5,6 +5,7 @@ Serve new combined calendar
 import os
 import json
 from flask import Flask
+from waitress import serve
 from combine_calendars import ExistingCalendar, generate_combined_calendar
 
 ROOT_PATH = "/motorsport-calendar"
@@ -50,3 +51,6 @@ def index():
         index_lines.append(f'<li><a href="{ROOT_PATH}{page["path"]}">{page["name"]}</a></li>')
     index_lines.append('</ul>')
     return '\n'.join(index_lines)
+
+if __name__ == "__main__":
+    serve(app, host='0.0.0.0', port=8080)
