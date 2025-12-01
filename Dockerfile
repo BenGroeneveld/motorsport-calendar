@@ -1,4 +1,5 @@
 FROM python:3-slim
+RUN pip install --upgrade pip
 RUN pip install requests flask ics
 ADD app.py /app/app.py
 ADD combine_calendars.py /app/combine_calendars.py
