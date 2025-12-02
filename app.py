@@ -8,7 +8,7 @@ from flask import Flask
 from waitress import serve
 from combine_calendars import ExistingCalendar, generate_combined_calendar
 
-ROOT_PATH = "/"
+ROOT_PATH = ""
 
 app = Flask(__name__)
 
