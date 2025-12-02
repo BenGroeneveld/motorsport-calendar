@@ -5,42 +5,42 @@
       "name": "FIA WEC 2026",
       "calendars": [
         {
-          "name": "FIA WEC 2026 R1",
+          "name": "WEC R1",
           "description": "FIA WEC 2026 Round 1",
           "url": "https://www.fiawec.com/en/race/calendar/4947"
         },
         {
-          "name": "FIA WEC 2026 R2",
+          "name": "WEC R2",
           "description": "FIA WEC 2026 Round 2",
           "url": "https://www.fiawec.com/en/race/calendar/4948"
         },
         {
-          "name": "FIA WEC 2026 R3",
+          "name": "WEC R3",
           "description": "FIA WEC 2026 Round 3",
           "url": "https://www.fiawec.com/en/race/calendar/4949"
         },
         {
-          "name": "FIA WEC 2026 R4",
+          "name": "WEC R4",
           "description": "FIA WEC 2026 Round 4",
           "url": "https://www.fiawec.com/en/race/calendar/4951"
         },
         {
-          "name": "FIA WEC 2026 R5",
+          "name": "WEC R5",
           "description": "FIA WEC 2026 Round 5",
           "url": "https://www.fiawec.com/en/race/calendar/4952"
         },
         {
-          "name": "FIA WEC 2026 R6",
+          "name": "WEC R6",
           "description": "FIA WEC 2026 Round 6",
           "url": "https://www.fiawec.com/en/race/calendar/4953"
         },
         {
-          "name": "FIA WEC 2026 R7",
+          "name": "WEC R7",
           "description": "FIA WEC 2026 Round 7",
           "url": "https://www.fiawec.com/en/race/calendar/4954"
         },
         {
-          "name": "FIA WEC 2026 R8",
+          "name": "WEC R8",
           "description": "FIA WEC 2026 Round 8",
           "url": "https://www.fiawec.com/en/race/calendar/4955"
         }
