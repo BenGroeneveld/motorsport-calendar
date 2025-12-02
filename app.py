@@ -8,7 +8,7 @@ from flask import Flask
 from waitress import serve
 from combine_calendars import ExistingCalendar, generate_combined_calendar
 
-ROOT_PATH = ""
+ROOT_PATH = "/"
 
 app = Flask(__name__)
 
@@ -32,7 +32,7 @@ for page in config['pages']:
                                              calendar['url'])
         existing_calendars.append(existing_calendar)
 
-    route_path = f"{ROOT_PATH}/{page['path']}"
+    route_path = f"{ROOT_PATH}{page['path']}"
 
     @app.route(route_path)
     def combine_calendar_page(existing_calendars=existing_calendars, page=page):
